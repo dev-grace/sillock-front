@@ -1,0 +1,23 @@
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #9733ee white;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Works on Chrome, Edge, and Safari */
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #9733ee;
+    border-radius: 20px;
+    border: 1px solid #9733ee;
+}

@@ -1,0 +1,31 @@
+.wM-body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+    background-color: #9733ee;
+    color: white;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+#wM-button {
+    padding: 30px;
+    width: 80%;
+    background-color: rgba(255,255,255,.2);
+    border: 1px solid white;
+}
+
+#wM-button a{
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.wM-content {
+    margin: 100px;
+}
